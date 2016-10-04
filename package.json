@@ -1,12 +1,12 @@
 {
   "name": "watch-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "watch an input textbox for changes and process them with jquery",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "make": "node node_modules/uglify-js/bin/uglifyjs watchinput.js > watchinput.min.js",
-    "bump" : "npm run make && npm version patch && git push && git push --tags && npm publish"
+    "bump": "npm run make && npm version patch && git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
